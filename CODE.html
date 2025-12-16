@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile Card</title>
+    <style>
+/* Page background */
+body {
+    background-color: #6ba2c9;
+    font-family: Arial, sans-serif;
+}
+
+/* Profile card */
+.profile-card {
+    width: 360px;
+    background-color: #cecfdc;
+    border: 1px solid #cfd8dc;
+    padding: 20px;
+    margin: 40px auto;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* Profile image */
+.profile-card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #4a90e2;
+    margin-bottom: 10px;
+}
+
+/* Name */
+.profile-card h2 {
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+/* Role text */
+.profile-card span {
+    color: #4a90e2;
+    font-weight: bold;
+}
+
+/* Section headings */
+.profile-card h3 {
+    margin-top: 20px;
+    color: #34495e;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+/* Paragraph text */
+.profile-card p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Skills list */
+.profile-card ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.profile-card ul li {
+    background-color: #f1f6fb;
+    margin: 6px 0;
+    padding: 6px;
+    border-radius: 5px;
+    color: #333;
+}
+
+/* Table */
+.profile-card table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.profile-card th {
+    background-color: #4a90e2;
+    color: white;
+    padding: 8px;
+}
+
+.profile-card td {
+    padding: 6px;
+    background-color: #f9f9f9;
+}
+
+/* Links */
+.profile-card a {
+    text-decoration: none;
+    color: #4a90e2;
+    font-weight: bold;
+}
+
+.profile-card a:hover {
+    color: #1c5fa8;
+}
+
+/* Form inputs */
+.profile-card input,
+.profile-card textarea {
+    width: 92%;
+    padding: 7px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Button */
+.profile-card button {
+    padding: 8px 18px;
+    background-color: #04101e;
+    color: cyan;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.profile-card button:hover {
+    background-color: #357abd;
+}
+.social-links {
+    margin-top: 10px;
+}
+
+/* Common button style */
+.social-links a {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 5px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+/* LinkedIn button */
+.social-links .linkedin {
+    background-color: #0077b5;
+}
+
+.social-links .linkedin:hover {
+    background-color: #005f8d;
+}
+
+/* GitHub button */
+.social-links .github {
+    background-color: #24292e;
+}
+
+.social-links .github:hover {
+    background-color: #000000;
+}
+</style>
+</head>
+<body>
+
+    <div class="profile-card">
+
+        <!-- Profile Image -->
+        <img src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=160"
+             alt="Profile Picture">
+
+        <!-- Name and Role -->
+        <h2>Rishank Gupta</h2>
+        <p>
+            <span>Web Developer</span><br>
+            Student at LNMIIT
+        </p>
+
+        <!-- About Section -->
+        <h3>About Me</h3>
+        <p>
+            I am a beginner web developer learning HTML and CSS @ The LNMIIT Jaipur.
+        <br>
+            AI/ML Enthusiast trying to learn and work with new technologies. 
+        </p>
+
+        <!-- Skills List -->
+        <h3>Skills</h3>
+        <ul>
+            <li>HTML</li>
+            <li>Basic CSS</li>
+            <li>Python</li>
+            <li>C/C++ Programming</li>
+            <li>Problem Solving</li>
+        </ul>
+
+        <!-- Education Table -->
+        <h3>Education</h3>
+        <table border="1">
+            <tr>
+                <th>Year</th>
+                <th>Course</th>
+            </tr>
+            <tr>
+                <td>2025</td>
+                <td>B.Tech - First Year</td>
+            </tr>
+        </table>
+
+        <!-- Social Links -->
+        <h3>Connect with Me</h3>
+            <div class="social-links">
+            <a href="#" class="linkedin" target="_blank">LinkedIn</a>
+            <a href="#" class="github" target="_blank">GitHub</a>
+            </div>
+
+
+        <!-- Contact Form -->
+        <h3>Contact Me</h3>
+        <form>
+            <label>Name:</label><br>
+            <input type="text" placeholder="Enter your name"><br><br>
+
+            <label>Email:</label><br>
+            <input type="email" placeholder="Enter your email"><br><br>
+
+            <label>Message:</label><br>
+            <textarea rows="4" cols="30" placeholder="Your message"></textarea><br><br>
+
+            <button type="submit">Send Message</button>
+        </form>
+
+    </div>
+
+</body>
+</html>
